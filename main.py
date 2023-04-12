@@ -10,6 +10,8 @@ def continue_playing():
 hand = {0: rock, 1: paper, 2: scissor}
 game_on = True
 
+print("Welcome to Rock Paper Scissors.")
+
 while game_on:
 
     user_choice = input("Choose one of the following:- \n0: Rock, 1: Paper, 2: Scissors: ")
